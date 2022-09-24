@@ -1,0 +1,190 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+
+ .hero-content {
+  margin: 0;
+}
+
+.custom-home-banner {}
+
+ .hero-banner {
+  align-items: flex-start;
+}
+.hero-content h1,.hero-content p {
+  max-width: 500px;
+}
+
+.hero-banner-wrapper a.sn-arrow {
+  display: none;
+}
+.custom-section-header h2 {
+  margin-bottom: 0.3em;
+}
+.hero-banner .hero-content p {
+  font-family: 'Gilroy-Bold';
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+
+  padding: 58px 0  30px;
+  margin-bottom:0;
+}
+.hero-banner p {
+  font-size: 25px;
+}
+
+img{
+  max-width:100%;
+
+}
+.hero-banner h5 {
+  margin: 22px 0;
+}
+.hero-banner .black-btn {
+  margin-bottom: 10px;
+}
+.hero-banner .black-btn {
+  margin-left: 33px;
+}
+.custom-home-banner a#cta_button_6827378_98dde30b-af8f-4fee-ba1f-c34a1c80758f,
+.cta_button.black-btn,
+.black-btn{
+  font-family: Gilroy !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+  font-stretch: normal !important;
+  font-style: normal;
+  line-height: normal !important;
+  letter-spacing: normal;
+  text-align: center !important;
+  color: #111 !important;
+  width: auto !important;
+  height: 52px !important;
+  padding:13px 25px 13px 25px !important;
+  border: 3px solid #111 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  display: inline-block;
+  height: auto !important;
+  min-width: 150px !important;
+}
+
+
+.custom-home-banner a#cta_button_6827378_98dde30b-af8f-4fee-ba1f-c34a1c80758f:hover,
+.cta_button.black-btn:hover,
+.black-btn:hover{
+  color: #fff !important;
+  background: #1d1d1b !important;
+}
+
+
+.custom-btn a{
+  font-family: Gilroy !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+  font-stretch: normal !important;
+  font-style: normal;
+  line-height: normal !important;
+  letter-spacing: normal;
+  text-align: center !important;
+  color: #111 !important;
+  width: auto !important;
+  height: 52px !important;
+  padding:13px 25px 13px 25px !important;
+  border: 3px solid #111 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  display: inline-block;
+  height: auto !important;
+  min-width: 150px !important;
+}
+.custom-home-row2 .custom-btn-white.custom-btn a {
+  font-size: 19px !important;
+}
+
+.custom-btn-white.custom-btn a{
+  color: #fff !important;
+  border: 3px solid #fff !important;
+}
+.custom-home-row6-inner-row h2 {
+  font-size: 2rem;
+}
+.custom-home-row6-inner-row p {
+  font-size: 18px;
+}
+
+.custom-home-row7 .form-row {
+  background: red;
+}
+
+.custom-home-row7 .form-row * {
+  color: #fff;
+}
+
+.custom-home-row7 .form-row p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.custom-home-row7 .form-row h3 {
+  margin: 0;
+}
+.custom-home-row7 .form-row input.hs-button.primary.large {
+  border-color: #fff;
+}
+.custom-home-row7 .form-row p {
+  margin: 0;
+}
+
+.custom-home-row7 .form-rowlabel {}
+
+.custom-home-row7 .form-row .field.hs-form-field>label {
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+}
+
+.custom-home-row7 .form-row .field.hs-form-field>label span.hs-form-required {
+  display: none;
+}
+
+.custom-home-row7 .form-row .field.hs-form-field .hs-input {
+  border-radius: 0;
+  background: #fff;
+  font-size: 17px;
+}
+
+@media (max-width: 1139px){
+
+  .custom-home-row6 .span6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+}
+
+@media (max-width: 767px){
+.custom-home-row6 .span6 .span8 {
+    padding-left: 0 !important;
+    padding-top: 20px;
+}
+
+}
